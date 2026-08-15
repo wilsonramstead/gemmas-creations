@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gemma's Creations | Custom Upholstery &amp; Reupholstery — St. Petersburg, FL</title>
+<meta name="description" content="Gemma's Creations is a woman-owned custom upholstery shop in St. Petersburg, FL — reupholstering sofas, dining chairs, barstools, banquettes, cushions and boat seats in the fabric you choose. 5.0 stars across 16 Google reviews. By appointment — call or text.">
+<meta name="author" content="Gemma's Creations">
+<meta name="theme-color" content="#211b1e">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gemma's Creations | Custom Upholstery &amp; Reupholstery — St. Petersburg, FL">
+<meta property="og:description" content="Woman-owned custom upholstery in St. Petersburg, FL. Sofas, dining chairs, barstools, banquettes, cushions and boat seats — brought back better than new in the fabric you love. 5.0 stars, 16 Google reviews.">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://wilsoninnovations.net/gemmas-creations/">
+<meta property="og:image" content="https://wilsoninnovations.net/gemmas-creations/assets/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gemma's Creations | Custom Upholstery &amp; Reupholstery — St. Petersburg, FL">
+<meta name="twitter:description" content="Woman-owned custom upholstery in St. Petersburg, FL. Sofas, chairs, barstools, banquettes, cushions and boat seats brought back better than new. 5.0 stars across 16 Google reviews.">
+<meta name="twitter:image" content="https://wilsoninnovations.net/gemmas-creations/assets/hero.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Karma:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeGoodsStore",
+  "name": "Gemma's Creations",
+  "description": "Woman-owned custom upholstery and reupholstery shop in St. Petersburg, Florida. Sofas, sleeper sofas, occasional chairs, dining chairs, barstools, built-in banquettes, custom cushions and boat and marine seating re-covered in the customer's choice of fabric. By appointment.",
+  "url": "https://wilsoninnovations.net/gemmas-creations/",
+  "image": "https://wilsoninnovations.net/gemmas-creations/assets/hero.jpg",
+  "telephone": "+17272541813",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33708",
+    "addressCountry": "US"
+  },
+  "areaServed": "St. Petersburg, Seminole and the Tampa Bay area",
+  "availableLanguage": "English",
+  "knowsAbout": ["Furniture reupholstery", "Sofa and couch reupholstery", "Dining chair and barstool reupholstery", "Custom cushions", "Built-in banquette cushions", "Boat and marine cushions", "Upholstery repairs", "Upholstery fabric selection"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "16"
+  }
+}
+</script>
+
+<style>
+/* =========================================================================
+   GEMMA'S CREATIONS — "Charcoal & Dusty Rose" night treatment
+   Warm charcoal / plum canvas + drifting dusty-rose aurora + film grain.
+   Display: Bellefair · Body/UI: Karma
+   All motion transform/opacity (+ one-shot blur reveals), gated by reduced-motion.
+   ========================================================================= */
+:root{
+  --ink:#211b1e;
+  --ink-2:#2a2327;
+  --ink-3:#352b30;
+
+  --paper:#f3ebe6;
+  --paper-dim:#bfa9a2;
+
+  /* the signal — dusty rose */
+  --rs:#c98a8a;
+  --rs-bright:#e2aaa6;
+  --rs-soft:#f0cfca;
+  --rs-deep:#9e6062;
+  --ember:#5c3a3c;
+
+  /* warm taupe micro-accent */
+  --taupe:#8f7a70;
+  --taupe-dim:#a8938a;
+
+  --line:rgba(201,138,138,.22);
+  --line-soft:rgba(201,138,138,.11);
+  --line-taupe:rgba(168,147,138,.18);
+  --glass:linear-gradient(180deg,rgba(201,138,138,.07),rgba(201,138,138,.02) 55%),rgba(42,35,39,.66);
+
+  --grad:linear-gradient(100deg,var(--rs-soft) 0%,var(--rs-bright) 38%,var(--rs) 68%,var(--rs-deep) 100%);
+  --radius:16px;
+
+  --shadow-md:0 8px 26px rgba(0,0,0,.5), 0 28px 70px rgba(0,0,0,.46);
+  --shadow-lg:0 14px 40px rgba(0,0,0,.55), 0 48px 110px rgba(0,0,0,.5);
+  --glow-sm:0 0 0 1px rgba(201,138,138,.16), 0 10px 34px rgba(92,58,60,.3);
+  --glow-md:0 0 0 1px rgba(226,170,166,.28), 0 14px 44px rgba(92,58,60,.38), 0 4px 18px rgba(92,58,60,.24);
+  --maxw:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:clip}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--paper-dim);
+  font-family:"Karma",Georgia,"Times New Roman",serif;
+  line-height:1.7;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+p{margin:0;overflow-wrap:break-word}
+::selection{background:rgba(158,96,98,.55);color:#fff}
+:focus-visible{outline:2px solid var(--rs-bright);outline-offset:3px;border-radius:6px;box-shadow:0 0 0 6px rgba(201,138,138,.2)}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;transition-duration:.001ms !important;animation-iteration-count:1 !important}
+}
+
+h1,h2,h3,h4{margin:0;color:var(--paper);overflow-wrap:break-word}
+h1,h2,.disp{font-family:"Bellefair","Georgia",serif;font-weight:400;line-height:1.1;letter-spacing:.004em}
+h2{font-size:clamp(2rem,4.4vw,3.25rem);text-wrap:balance}
+h3{font-family:"Karma",Georgia,serif;font-weight:700;font-size:1.2rem;line-height:1.3;letter-spacing:-.005em}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding-left:clamp(20px,5vw,44px);padding-right:clamp(20px,5vw,44px)}
+section{position:relative;padding-top:clamp(64px,9vw,118px);padding-bottom:clamp(64px,9vw,118px)}
+
+.gtext{
+  background:var(--grad);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 20px rgba(201,138,138,.24));
+}
+
+/* ===== living background — rose aurora + grain ===== */
+.aurora{
+  position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 0%, #2c1d21 0%, var(--ink) 55%), var(--ink);
+}
+.aurora i{position:absolute;border-radius:50%;mix-blend-mode:screen}
+.aurora i:nth-child(1){
+  width:72vmax;height:72vmax;top:-30vmax;left:-18vmax;
+  background:radial-gradient(circle at 50% 50%, rgba(158,96,98,.36) 0%, rgba(158,96,98,.12) 38%, transparent 64%);
+  animation:drift-a 56s ease-in-out infinite alternate;
+}
+.aurora i:nth-child(2){
+  width:64vmax;height:64vmax;bottom:-28vmax;right:-20vmax;
+  background:radial-gradient(circle at 50% 50%, rgba(143,122,112,.32) 0%, rgba(201,138,138,.09) 40%, transparent 64%);
+  animation:drift-b 68s ease-in-out infinite alternate;
+}
+.aurora i:nth-child(3){
+  width:46vmax;height:46vmax;top:32%;left:42%;
+  background:radial-gradient(circle at 50% 50%, rgba(240,207,202,.07) 0%, rgba(226,170,166,.05) 42%, transparent 66%);
+  animation:drift-c 78s ease-in-out infinite alternate;
+}
+@keyframes drift-a{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(9vw,7vh,0) scale(1.12) rotate(12deg)}100%{transform:translate3d(-5vw,12vh,0) scale(.94)}}
+@keyframes drift-b{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-10vw,-8vh,0) scale(1.15)}100%{transform:translate3d(4vw,-14vh,0) scale(.92) rotate(-14deg)}}
+@keyframes drift-c{0%{transform:translate3d(0,0,0) scale(1);opacity:.8}50%{transform:translate3d(-14vw,10vh,0) scale(1.3);opacity:1}100%{transform:translate3d(10vw,-8vh,0) scale(.9);opacity:.65}}
+@media (max-width:700px){
+  .aurora i:nth-child(1){width:95vmax;height:95vmax;top:-45vmax;left:-30vmax}
+  .aurora i:nth-child(3){display:none}
+}
+@media (prefers-reduced-motion: reduce){.aurora i{animation:none !important}}
+.grain{
+  position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  background-size:160px 160px;
+}
+
+/* glowing hairline on alt panels */
+.alt{background:linear-gradient(180deg,rgba(92,58,60,.10) 0%,rgba(201,138,138,.028) 26%,rgba(201,138,138,.012) 70%,transparent 100%)}
+.alt::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;pointer-events:none;
+  background:linear-gradient(90deg,transparent 4%,rgba(240,207,202,.32) 30%,rgba(201,138,138,.5) 50%,rgba(92,58,60,.3) 70%,transparent 96%);
+}
+
+/* eyebrow (rose stitch rule) */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:11px;
+  text-transform:uppercase;letter-spacing:.26em;font-size:.72rem;font-weight:600;
+  color:var(--rs-bright);margin:0 0 16px;
+}
+.eyebrow::before{
+  content:"";width:30px;height:0;flex:none;
+  border-top:2px dashed var(--taupe-dim);
+  filter:drop-shadow(0 0 6px rgba(168,147,138,.4));
+}
+
+/* buttons */
+.btn{
+  position:relative;display:inline-flex;align-items:center;gap:.6em;
+  font-family:"Karma",Georgia,serif;font-weight:700;font-size:1rem;
+  padding:15px 26px;border-radius:12px;text-decoration:none;cursor:pointer;border:1px solid transparent;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease,border-color .2s ease;
+  line-height:1.14;min-width:0;overflow:hidden;
+}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-rs{
+  background:linear-gradient(115deg,var(--rs-deep) 0%,var(--rs) 45%,var(--rs-bright) 75%,var(--rs-deep) 100%);
+  background-size:220% 100%;background-position:0 0;color:#2c1618;
+  box-shadow:0 8px 26px rgba(92,58,60,.5), inset 0 1px 0 rgba(255,255,255,.32);
+  animation:sheen-bg 7s linear infinite;
+}
+.btn-rs::after{
+  content:"";position:absolute;top:0;bottom:0;left:-70%;width:45%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);
+  transform:skewX(-18deg);animation:btn-shine 4.2s ease-in-out infinite;pointer-events:none;
+}
+@keyframes sheen-bg{0%{background-position:0 0}50%{background-position:100% 0}100%{background-position:0 0}}
+@keyframes btn-shine{0%,58%{left:-70%}88%,100%{left:140%}}
+.btn-rs:hover{transform:translateY(-2px);background-position:60% 0;box-shadow:0 12px 36px rgba(201,138,138,.5),0 4px 16px rgba(92,58,60,.4),inset 0 1px 0 rgba(255,255,255,.4)}
+@media (prefers-reduced-motion: reduce){.btn-rs,.btn-rs::after{animation:none !important}}
+.btn-ghost{
+  background:rgba(201,138,138,.06);color:var(--paper);border-color:rgba(240,207,202,.34);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+}
+.btn-ghost:hover{background:rgba(201,138,138,.13);border-color:rgba(226,170,166,.6);transform:translateY(-2px);box-shadow:0 0 22px rgba(201,138,138,.2)}
+.btn .sub{display:block;font-size:.74rem;font-weight:500;letter-spacing:.01em;opacity:.85;line-height:1;margin-top:3px}
+.btn.stack .txt{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+
+.skip{position:absolute;left:-999px;top:0;background:var(--ink-3);color:#fff;padding:12px 18px;z-index:300;border-radius:0 0 10px 0;font-weight:700;text-decoration:none}
+.skip:focus{left:0}
+
+/* header */
+header.site{
+  position:sticky;top:0;z-index:100;
+  background:rgba(33,27,30,.6);
+  -webkit-backdrop-filter:saturate(1.4) blur(16px);backdrop-filter:saturate(1.4) blur(16px);
+  border-bottom:1px solid transparent;transition:border-color .25s ease,background .25s ease;
+}
+header.site.is-scrolled{border-bottom-color:var(--line-soft);background:rgba(33,27,30,.9)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none;min-width:0}
+.brand .mark{
+  width:46px;height:46px;flex:none;border-radius:13px;
+  background:linear-gradient(155deg,#3d2a2d,var(--ink));display:grid;place-items:center;color:var(--rs-bright);
+  border:1px solid var(--line);box-shadow:0 6px 16px -8px rgba(0,0,0,.7), 0 0 18px rgba(201,138,138,.2);
+}
+.brand .mark svg{width:26px;height:26px;filter:drop-shadow(0 0 6px rgba(201,138,138,.5))}
+.brand .bt{min-width:0}
+.brand b{font-family:"Bellefair",serif;font-weight:400;font-size:1.22rem;color:var(--paper);letter-spacing:.01em;line-height:1.08;display:block}
+.brand span.tag{display:flex;align-items:center;gap:6px;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--rs-soft);font-weight:600;margin-top:4px;white-space:nowrap;font-family:"Karma",Georgia,serif}
+.nav-right{display:flex;align-items:center;gap:14px;flex:none;margin-left:auto}
+.nav-links{display:flex;align-items:center;gap:26px}
+.nav-links a.link{text-decoration:none;font-weight:600;color:rgba(243,235,230,.82);font-size:.93rem;transition:color .18s ease}
+.nav-links a.link:hover{color:var(--rs-bright)}
+.txt-link{
+  display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:rgba(243,235,230,.9);font-weight:700;font-size:.9rem;white-space:nowrap;
+  border:1px solid rgba(240,207,202,.34);border-radius:11px;padding:10px 15px;flex:none;background:rgba(201,138,138,.05);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:border-color .18s ease,color .18s ease,box-shadow .18s ease;
+}
+.txt-link svg{width:16px;height:16px;flex:none}
+.txt-link:hover{border-color:var(--rs);color:#fff;box-shadow:0 0 18px rgba(201,138,138,.2)}
+.callbtn{
+  position:relative;display:inline-flex;align-items:center;gap:9px;text-decoration:none;
+  background:linear-gradient(115deg,var(--rs-deep) 0%,var(--rs) 45%,var(--rs-bright) 75%,var(--rs-deep) 100%);
+  background-size:220% 100%;color:#2c1618;font-weight:700;font-family:"Karma",Georgia,serif;
+  padding:11px 17px;border-radius:11px;font-size:.92rem;white-space:nowrap;flex:none;overflow:hidden;
+  transition:transform .18s ease,box-shadow .18s ease,background-position .3s ease;line-height:1.05;
+  box-shadow:0 8px 24px rgba(92,58,60,.5), inset 0 1px 0 rgba(255,255,255,.36);
+}
+.callbtn::after{content:"";position:absolute;top:0;bottom:0;left:-70%;width:45%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-18deg);animation:btn-shine 4.2s ease-in-out infinite;pointer-events:none}
+@media (prefers-reduced-motion: reduce){.callbtn::after{animation:none !important}}
+.callbtn:hover{transform:translateY(-1px);background-position:60% 0;box-shadow:0 12px 30px rgba(201,138,138,.55), inset 0 1px 0 rgba(255,255,255,.4)}
+.callbtn svg{width:17px;height:17px;flex:none}
+.callbtn .cn{display:flex;flex-direction:column;line-height:1}
+.callbtn .cn small{font-size:.62rem;opacity:.85;font-weight:600;letter-spacing:.02em;margin-top:2px}
+@media(max-width:940px){.nav-links{display:none}}
+@media(max-width:720px){.txt-link .label-txt{display:none}.txt-link{padding:10px 12px}}
+@media(max-width:600px){
+  .callbtn .cn{display:none}.callbtn{padding:11px 13px;gap:0}
+  .brand .mark{width:42px;height:42px}.brand b{font-size:1.08rem;white-space:normal}
+}
+@media(max-width:560px){.brand b{font-size:1rem;letter-spacing:0}.brand span.tag{display:none}}
+@media(max-width:390px){.brand .mark{width:38px;height:38px}.brand b{font-size:.94rem}.txt-link{display:none}}
+
+/* hero */
+.hero{position:relative;display:flex;align-items:center;min-height:min(94vh,880px);isolation:isolate;overflow:hidden;padding-top:0;padding-bottom:0}
+.hero-bg{position:absolute;inset:0;z-index:-3}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:60% 50%}
+.hero-shade{
+  position:absolute;inset:0;z-index:-2;
+  background:
+    linear-gradient(100deg, rgba(33,27,30,.97) 0%, rgba(33,27,30,.88) 40%, rgba(33,27,30,.5) 100%),
+    linear-gradient(0deg, rgba(33,27,30,.94), rgba(33,27,30,0) 52%),
+    radial-gradient(90% 60% at 74% 18%, rgba(158,96,98,.24), transparent 62%);
+}
+.hero-ghost{
+  position:absolute;left:0;right:0;bottom:-.1em;z-index:-1;
+  font-family:"Bellefair","Georgia",serif;font-weight:400;font-size:clamp(64px,12vw,186px);line-height:1;letter-spacing:.02em;
+  text-transform:uppercase;text-align:center;white-space:nowrap;color:transparent;
+  -webkit-text-stroke:1px rgba(201,138,138,.15);pointer-events:none;user-select:none;
+}
+.hero .wrap{padding-top:112px;padding-bottom:112px;width:100%}
+@supports (animation-timeline: scroll()){
+  @media (prefers-reduced-motion: no-preference){
+    .hero .wrap{animation:hero-drift linear both;animation-timeline:scroll(root);animation-range:0 640px}
+  }
+}
+@keyframes hero-drift{to{transform:translateY(64px);opacity:.25}}
+.hero-inner{max-width:840px}
+.badge{
+  display:inline-flex;align-items:center;gap:10px;background:rgba(201,138,138,.1);border:1px solid rgba(201,138,138,.45);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:var(--rs-soft);font-weight:600;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+  padding:8px 16px;border-radius:999px;box-shadow:0 0 24px rgba(201,138,138,.14), inset 0 1px 0 rgba(255,255,255,.08);
+}
+.badge svg{width:15px;height:15px;flex:none;color:var(--rs-bright)}
+.hero h1{color:var(--paper);font-size:clamp(2.6rem,6vw,4.7rem);margin:22px 0 0;line-height:1.04;text-wrap:balance;text-shadow:0 4px 40px rgba(0,0,0,.65)}
+.hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 26px rgba(201,138,138,.3))}
+.hero p.sub{font-size:clamp(1.05rem,2.1vw,1.26rem);margin-top:22px;max-width:60ch;color:rgba(241,233,227,.9);font-weight:400;line-height:1.66}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero-note{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px;margin-top:30px;font-size:.93rem;color:rgba(241,233,227,.86)}
+.hero-note .pc{display:inline-flex;align-items:center;gap:9px}
+.hero-note .pc svg{width:17px;height:17px;color:var(--rs-bright);flex:none;filter:drop-shadow(0 0 6px rgba(201,138,138,.5))}
+.hero-note .dot{width:5px;height:5px;border-radius:50%;background:rgba(201,138,138,.5)}
+
+/* stat band */
+.stats{padding-top:0;padding-bottom:0;margin-top:clamp(-64px,-5vw,-40px);z-index:5}
+.stats .wrap{position:relative}
+.stat-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-soft);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.05), var(--shadow-md);
+}
+.stat-item{display:flex;align-items:center;gap:14px;background:rgba(38,30,34,.92);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:26px 24px;min-width:0;transition:background .25s ease,box-shadow .25s ease}
+.stat-item:hover{background:rgba(201,138,138,.08);box-shadow:inset 0 0 34px rgba(201,138,138,.08)}
+.stat-item svg{width:27px;height:27px;flex:none;color:var(--rs-bright);filter:drop-shadow(0 0 8px rgba(201,138,138,.5))}
+.stat-item b{display:block;font-family:"Bellefair",serif;font-size:1.5rem;font-weight:400;line-height:1.1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat-item small{display:block;color:var(--paper-dim);font-size:.8rem;margin-top:4px}
+@media(max-width:760px){.stat-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:400px){.stat-grid{grid-template-columns:1fr}}
+
+/* section heads */
+.sec-head{max-width:760px;margin-bottom:52px}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head.center .eyebrow{justify-content:center}
+.sec-head p{color:var(--paper-dim);margin-top:16px;font-size:1.08rem}
+
+/* benefits */
+.bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.bcard{
+  background:var(--glass);border:1px solid var(--line);border-radius:var(--radius);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:30px 26px;min-width:0;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease;
+}
+.bcard:hover{transform:translateY(-5px);border-color:rgba(226,170,166,.45);box-shadow:var(--shadow-md),var(--glow-sm)}
+.bcard .ico{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(155deg,rgba(201,138,138,.18),rgba(92,58,60,.1));color:var(--rs-bright);margin-bottom:18px;border:1px solid var(--line);box-shadow:0 0 18px rgba(201,138,138,.16), inset 0 1px 0 rgba(255,255,255,.08)}
+.bcard .ico svg{width:27px;height:27px;filter:drop-shadow(0 0 6px rgba(201,138,138,.45))}
+.bcard h3{margin-bottom:9px;color:var(--paper)}
+.bcard p{color:var(--paper-dim);font-size:.97rem}
+@media(max-width:900px){.bgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.bgrid{grid-template-columns:1fr}}
+
+/* feature split */
+.feat-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(34px,6vw,72px);align-items:center}
+.feat-grid>*{min-width:0}
+.feat-grid.flip .feat-media{order:-1}
+.feat-copy .lead{color:var(--paper);margin-top:18px;font-size:1.12rem;font-weight:400;line-height:1.6}
+.feat-copy p.body{color:var(--paper-dim);margin-top:15px;font-size:1.03rem}
+.feat-list{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:13px}
+.feat-list li{display:flex;gap:13px;align-items:flex-start;min-width:0}
+.feat-list li svg{width:22px;height:22px;flex:none;color:var(--rs-bright);margin-top:4px;filter:drop-shadow(0 0 6px rgba(201,138,138,.45))}
+.feat-list li span{font-size:1rem;color:var(--paper)}
+.feat-media{position:relative;min-width:0}
+.feat-media img{border-radius:var(--radius);width:100%;height:100%;max-height:600px;object-fit:cover;border:1px solid rgba(201,138,138,.3);box-shadow:var(--shadow-md), 0 0 44px rgba(92,58,60,.18)}
+.feat-media::after{content:"";position:absolute;top:18px;left:18px;right:-18px;bottom:-18px;border:1px dashed rgba(168,147,138,.4);border-radius:var(--radius);z-index:-1;pointer-events:none}
+.feat-grid.flip .feat-media::after{left:-18px;right:18px}
+.feat-media .float{position:absolute;left:16px;bottom:16px;background:rgba(37,29,33,.86);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:var(--paper);border-radius:14px;padding:16px 21px;border:1px solid var(--line);box-shadow:var(--shadow-md), 0 0 24px rgba(201,138,138,.14), inset 0 1px 0 rgba(255,255,255,.06);display:flex;align-items:center;gap:13px;max-width:calc(100% - 32px)}
+.feat-media .float svg{width:29px;height:29px;flex:none;color:var(--rs-bright);filter:drop-shadow(0 0 8px rgba(201,138,138,.5))}
+.feat-media .float b{font-family:"Bellefair",serif;font-weight:400;font-size:1.16rem;line-height:1.14;display:block;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.feat-media .float small{color:var(--paper-dim);font-size:.8rem;line-height:1.3;display:block;margin-top:3px}
+.feat-cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:13px}
+@media(max-width:860px){
+  .feat-grid{grid-template-columns:1fr}
+  .feat-grid.flip .feat-media{order:0}
+  .feat-media{max-width:620px}
+  .feat-media::after,.feat-grid.flip .feat-media::after{top:12px;left:12px;right:-12px;bottom:-12px}
+}
+
+/* services lineup */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.svc{
+  background:var(--glass);border:1px solid var(--line);border-radius:var(--radius);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:28px 26px;min-width:0;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease;display:flex;flex-direction:column;
+}
+.svc:hover{transform:translateY(-5px);border-color:rgba(226,170,166,.45);box-shadow:var(--shadow-md),var(--glow-sm)}
+.svc .ico{width:52px;height:52px;border-radius:13px;display:grid;place-items:center;margin-bottom:16px;flex:none;background:rgba(201,138,138,.12);color:var(--rs-bright);border:1px solid var(--line);box-shadow:0 0 18px rgba(201,138,138,.15), inset 0 1px 0 rgba(255,255,255,.08)}
+.svc .ico svg{width:26px;height:26px;filter:drop-shadow(0 0 6px rgba(201,138,138,.45))}
+.svc h3{color:var(--paper);margin:0 0 8px;font-size:1.14rem}
+.svc p{color:var(--paper-dim);font-size:.95rem}
+@media(max-width:860px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.svc-grid{grid-template-columns:1fr}}
+
+/* gallery */
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gal{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-md);min-width:0;aspect-ratio:4/3;background:var(--ink-2)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.gal:hover img{transform:scale(1.06)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 16px 13px;font-size:.82rem;font-weight:600;color:var(--paper);background:linear-gradient(0deg,rgba(18,12,14,.84),transparent);letter-spacing:.01em}
+@media(max-width:820px){.gal-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.gal-grid{grid-template-columns:1fr}}
+
+/* divider pull-quote */
+.divider{position:relative;color:#fff;overflow:hidden;text-align:center;isolation:isolate}
+.divider .bg{position:absolute;inset:0;z-index:-2}
+.divider .bg img{width:100%;height:100%;object-fit:cover}
+.divider::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(33,27,30,.88),rgba(33,27,30,.93)),radial-gradient(70% 90% at 50% 50%, rgba(158,96,98,.18), transparent 70%)}
+.divider .star{width:40px;height:40px;color:var(--rs-bright);margin:0 auto 22px;filter:drop-shadow(0 0 14px rgba(201,138,138,.6))}
+.divider blockquote{font-family:"Bellefair",serif;font-weight:400;color:var(--paper);margin:0 auto;font-size:clamp(1.6rem,3.8vw,2.6rem);line-height:1.3;letter-spacing:.004em;max-width:26ch;text-wrap:balance}
+.divider blockquote b{font-weight:400;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 20px rgba(201,138,138,.3))}
+.divider .who{display:block;margin-top:26px;color:rgba(241,233,227,.72);font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+
+/* reviews */
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev{background:var(--glass);border:1px solid var(--line);border-radius:var(--radius);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:28px 26px;min-width:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.05);display:flex;flex-direction:column;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.rev:hover{transform:translateY(-5px);border-color:rgba(226,170,166,.45);box-shadow:var(--shadow-md),var(--glow-sm)}
+.rev .stars{display:flex;gap:3px;color:var(--rs-bright);margin-bottom:14px}
+.rev .stars svg{width:17px;height:17px;filter:drop-shadow(0 0 5px rgba(201,138,138,.4))}
+.rev p{color:var(--paper);font-size:.98rem;line-height:1.62}
+.rev .who{margin-top:18px;display:flex;align-items:center;gap:11px;color:var(--paper-dim);font-size:.86rem}
+.rev .who .av{width:38px;height:38px;flex:none;border-radius:50%;display:grid;place-items:center;font-family:"Bellefair",serif;font-weight:400;font-size:1.05rem;color:#2c1618;background:linear-gradient(150deg,var(--rs-bright),var(--rs-deep));border:1px solid var(--line)}
+.rev .who b{color:var(--paper);font-weight:700;display:block;font-size:.92rem}
+.rev .who span{font-size:.76rem}
+@media(max-width:860px){.rev-grid{grid-template-columns:1fr}.rev{max-width:640px;margin:0 auto}}
+
+/* info strip */
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.info{background:var(--glass);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:inset 0 1px 0 rgba(255,255,255,.05);min-width:0}
+.info .ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:15px;background:rgba(201,138,138,.12);color:var(--rs-bright);border:1px solid var(--line)}
+.info .ico svg{width:23px;height:23px}
+.info h3{color:var(--paper);font-size:1.05rem;margin-bottom:8px}
+.info p{color:var(--paper-dim);font-size:.95rem;line-height:1.55}
+.info a{color:var(--rs-soft);text-decoration:none;font-weight:600}
+.info a:hover{color:var(--rs-bright)}
+@media(max-width:760px){.info-grid{grid-template-columns:1fr}.info{max-width:640px;margin:0 auto}}
+
+/* craft strip */
+.cred{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,4vw,48px);align-items:center;background:linear-gradient(180deg,#2e2024,#191114) padding-box, linear-gradient(135deg,rgba(240,207,202,.6),rgba(201,138,138,.55) 45%,rgba(92,58,60,.5)) border-box;border:1px solid transparent;border-radius:22px;padding:clamp(26px,3.5vw,40px);box-shadow:var(--shadow-lg), 0 0 70px rgba(92,58,60,.2)}
+.cred img{width:clamp(160px,26vw,300px);height:clamp(160px,20vw,230px);object-fit:cover;border-radius:14px;border:1px solid var(--line);box-shadow:var(--shadow-md)}
+.cred h3{color:var(--paper);font-family:"Bellefair",serif;font-weight:400;font-size:clamp(1.6rem,3vw,2.35rem);margin-bottom:12px;line-height:1.14}
+.cred h3 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cred p{color:var(--paper-dim);font-size:1.02rem;max-width:58ch}
+.cred p+p{margin-top:12px}
+@media(max-width:620px){.cred{grid-template-columns:1fr;text-align:center;justify-items:center}.cred img{width:min(100%,320px);height:auto;aspect-ratio:3/2}}
+
+/* CTA band */
+.cta-band{position:relative;color:#fff;text-align:center;overflow:hidden;isolation:isolate}
+.cta-band .bg{position:absolute;inset:0;z-index:-2}
+.cta-band .bg img{width:100%;height:100%;object-fit:cover}
+.cta-band::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(33,27,30,.88),rgba(33,27,30,.94)),radial-gradient(80% 90% at 50% 30%, rgba(158,96,98,.2), transparent 68%)}
+.cta-band h2{color:var(--paper);font-size:clamp(2.2rem,5vw,3.5rem)}
+.cta-band h2 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(201,138,138,.3))}
+.cta-band p{color:rgba(241,233,227,.9);font-size:1.12rem;margin:16px auto 0;max-width:58ch}
+.cta-band .btns{margin-top:34px;display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.cta-band .fine{margin-top:22px;font-size:.88rem;color:rgba(241,233,227,.62);letter-spacing:.02em}
+
+/* footer */
+footer.site{position:relative;background:linear-gradient(180deg,rgba(46,32,36,.5),rgba(10,6,8,.95));color:rgba(241,233,227,.82);padding-top:64px;padding-bottom:52px}
+footer.site::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent 4%,rgba(240,207,202,.35) 30%,rgba(201,138,138,.45) 50%,rgba(92,58,60,.3) 70%,transparent 96%)}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:38px}
+.foot-grid>*{min-width:0}
+.foot-brand .brand b{color:var(--paper)}
+.foot-brand p.desc{margin-top:18px;max-width:42ch;font-size:.92rem;color:var(--paper-dim)}
+.foot-contact{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}
+footer.site h4{text-transform:uppercase;letter-spacing:.16em;font-size:.73rem;color:var(--rs-soft);margin:0 0 15px;font-weight:600}
+footer.site a{color:rgba(241,233,227,.86);text-decoration:none}
+footer.site a:hover{color:var(--rs-bright)}
+.foot-col ul{list-style:none;margin:0;padding:0;display:grid;gap:11px;font-size:.93rem}
+.foot-col ul a{display:inline-flex;align-items:center;gap:9px}
+.foot-col ul svg{width:16px;height:16px;flex:none;color:var(--rs);filter:drop-shadow(0 0 5px rgba(201,138,138,.4))}
+.foot-bottom{border-top:1px solid var(--line-soft);margin-top:44px;padding-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.83rem;color:var(--paper-dim)}
+.foot-bottom a{color:var(--rs-soft)}
+.foot-note{margin-top:14px;font-size:.76rem;color:rgba(191,169,162,.6);max-width:82ch}
+
+@media(max-width:720px){.foot-grid{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
+@media(max-width:460px){.foot-grid{grid-template-columns:1fr}}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(26px) scale(.975);filter:blur(7px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1),filter .8s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.is-visible{opacity:1;transform:none;filter:none}
+.bgrid > .reveal:nth-child(2),.svc-grid > .reveal:nth-child(3n+2),.gal-grid > .reveal:nth-child(3n+2),.rev-grid > .reveal:nth-child(2),.info-grid > .reveal:nth-child(2),.stat-grid > .reveal:nth-child(2){transition-delay:.1s}
+.bgrid > .reveal:nth-child(3),.svc-grid > .reveal:nth-child(3n),.gal-grid > .reveal:nth-child(3n),.rev-grid > .reveal:nth-child(3),.info-grid > .reveal:nth-child(3),.stat-grid > .reveal:nth-child(3){transition-delay:.2s}
+.bgrid > .reveal:nth-child(4),.stat-grid > .reveal:nth-child(4){transition-delay:.3s}
+@media (prefers-reduced-motion: reduce){.js .reveal{opacity:1 !important;transform:none !important;filter:none !important}}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Gemma's Creations home">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4H5z"/><path d="M5 15v3M19 15v3"/><path d="M7 9V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><path d="M9 9h6"/></svg>
+      </span>
+      <span class="bt">
+        <b>Gemma's Creations</b>
+        <span class="tag">Custom Upholstery &middot; St. Petersburg</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <nav class="nav-links" aria-label="Primary">
+        <a class="link" href="#why">Why Us</a>
+        <a class="link" href="#reupholstery">Reupholstery</a>
+        <a class="link" href="#services">What We Do</a>
+        <a class="link" href="#work">Our Work</a>
+      </nav>
+      <a class="txt-link" href="sms:+17272541813" aria-label="Text Gemma's Creations at (727) 254-1813">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span class="label-txt">Text&nbsp;us</span>
+      </a>
+      <a class="callbtn" href="tel:+17272541813" aria-label="Call Gemma's Creations at (727) 254-1813">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="cn">(727) 254-1813<small>Call for a quote</small></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="assets/hero.jpg" alt="" fetchpriority="high">
+    </div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-ghost" aria-hidden="true">Reupholstery</div>
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg>
+          5.0 stars &middot; 16 Google reviews
+        </span>
+        <h1>The furniture you love, <em>made beautiful again.</em></h1>
+        <p class="sub">Gemma's Creations is a woman-owned custom upholstery shop in St. Petersburg &mdash; reupholstering sofas, dining chairs, barstools, built-in banquettes, cushions and boat seating in the fabric you choose. Exceptional work, reasonable pricing, and pieces brought back better than new.</p>
+        <div class="hero-cta">
+          <a class="btn btn-rs stack" href="tel:+17272541813">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span class="txt">Call (727) 254-1813<span class="sub">Free quote on your piece</span></span>
+          </a>
+          <a class="btn btn-ghost" href="sms:+17272541813">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Text a photo of your piece
+          </a>
+        </div>
+        <p class="hero-note">
+          <span class="pc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Sofas, chairs, barstools, cushions &amp; boat seats</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="pc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> By appointment &mdash; call or text to schedule</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STAT BAND ============ -->
+  <section class="stats" aria-label="Gemma's Creations at a glance">
+    <div class="wrap">
+      <div class="stat-grid">
+        <div class="stat-item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg>
+          <div><b>5.0 Stars</b><small>16 Google reviews</small></div>
+        </div>
+        <div class="stat-item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-8-4.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.5-8 11-8 11z"/></svg>
+          <div><b>Woman-Owned</b><small>Gemma, hands-on</small></div>
+        </div>
+        <div class="stat-item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16"/><path d="M4 5h16"/><path d="M7 5v14M17 5v14"/><path d="M4 12h16"/></svg>
+          <div><b>Your Fabric</b><small>Chosen with you</small></div>
+        </div>
+        <div class="stat-item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="6" width="15" height="10" rx="2"/><path d="M16 9h4l3 3v4h-7z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+          <div><b>Pickup &amp; Delivery</b><small>Arranged for you</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY US ============ -->
+  <section id="why" aria-labelledby="why-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Why Gemma's Creations</p>
+        <h2 id="why-h">Custom fabric work with the care of <span class="gtext">someone who does it all herself.</span></h2>
+        <p>Every piece is handled hands-on, start to finish &mdash; and customers keep coming back to the same few words: exceptional work, reasonable pricing, and results that look even better than the original.</p>
+      </div>
+      <div class="bgrid">
+        <article class="bcard reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 4.5 5 .7-3.6 3.5.8 4.9L12 18.8 7.6 20.1l.8-4.9L4.8 8.2l5-.7z"/></svg></div>
+          <h3>Exceptional quality</h3>
+          <p>Cushions rebuilt, seams run clean and panels re-covered with real attention to detail &mdash; pieces come back looking beautiful, and customers say it plainly: exceptional work.</p>
+        </article>
+        <article class="bcard reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3>Reasonable pricing</h3>
+          <p>Fair, honest quotes on work built to last for years. &ldquo;Very reasonably priced&rdquo; is a line reviewers use again and again &mdash; no surprises from the first fabric to the finish.</p>
+        </article>
+        <article class="bcard reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+          <h3>Highly communicative</h3>
+          <p>You&rsquo;re kept in the loop at every step, with a quick turnaround. Customers call out the great communication and how easy the whole process is from quote to pickup.</p>
+        </article>
+        <article class="bcard reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <h3>Hands-on, every step</h3>
+          <p>Gemma takes the time to understand exactly what you need and involves you in every step &mdash; from finding the perfect fabric to arranging pickup and delivery of your piece.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REUPHOLSTERY FEATURE ============ -->
+  <section class="feature alt" id="reupholstery" aria-labelledby="ru-h">
+    <div class="wrap feat-grid flip">
+      <div class="feat-copy reveal">
+        <p class="eyebrow">The craft</p>
+        <h2 id="ru-h">Worn, dated or damaged &mdash; <span class="gtext">brought back better than new.</span></h2>
+        <p class="lead">A set of barstools that had seen years of use. A sleeper sofa and occasional chair ready for a new look. Antique dining chairs worth saving. This is exactly the work Gemma's Creations is known for &mdash; and the results honestly look even better than the originals.</p>
+        <p class="body">Frames are re-covered, cushions rebuilt and every panel finished in fresh fabric of your choosing. Even a small hole in a favorite couch gets patched so you can enjoy the sectional for years to come. If it&rsquo;s upholstered, it can be made beautiful again.</p>
+        <ul class="feat-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Sofas, sleeper sofas &amp; occasional chairs</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Dining chairs, barstools &amp; antiques</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Repairs &amp; patching that save the piece</span></li>
+        </ul>
+        <div class="feat-cta">
+          <a class="btn btn-rs" href="tel:+17272541813">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Get a quote
+          </a>
+          <a class="btn btn-ghost" href="sms:+17272541813">Text us</a>
+        </div>
+      </div>
+      <div class="feat-media reveal">
+        <img src="assets/chairs.jpg" loading="lazy" alt="Set of antique carved-walnut dining chairs freshly reupholstered in cream fabric in the workshop">
+        <div class="float">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg>
+          <div><b>&ldquo;Better than new&rdquo;</b><small>The line customers keep using</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CUSHIONS / MARINE FEATURE ============ -->
+  <section class="feature" aria-labelledby="cu-h">
+    <div class="wrap feat-grid">
+      <div class="feat-copy reveal">
+        <p class="eyebrow">Cushions &amp; custom work</p>
+        <h2 id="cu-h">Custom cushions, banquettes &amp; <span class="gtext">boat seating, made to fit.</span></h2>
+        <p class="lead">Built-in kitchen banquettes and breakfast nooks. Bench and window-seat cushions. Boat and marine seating rebuilt after a storm. Gemma creates cushions from scratch to fit the space exactly &mdash; and customers say the new ones come out even better than the originals.</p>
+        <p class="body">Whether you&rsquo;re after a close match to something you already love or a whole new look for the room, you&rsquo;ll get honest guidance choosing the right fabric &mdash; and a finished result you&rsquo;re genuinely happy with.</p>
+        <ul class="feat-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Built-in banquettes &amp; breakfast nooks</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Bench, window-seat &amp; cushion sets</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Boat &amp; marine seating and covers</span></li>
+        </ul>
+        <div class="feat-cta">
+          <a class="btn btn-rs" href="tel:+17272541813">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Talk through your project
+          </a>
+          <a class="btn btn-ghost" href="sms:+17272541813">Text us</a>
+        </div>
+      </div>
+      <div class="feat-media reveal">
+        <img src="assets/banquette.jpg" loading="lazy" alt="Custom L-shaped corner banquette with striped navy, tan and cream cushions built into a bright room">
+        <div class="float">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <div><b>Made to fit</b><small>Cushions built for your space</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES LINEUP ============ -->
+  <section class="services alt" id="services" aria-labelledby="svc-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2 id="svc-h">If it&rsquo;s upholstered, <span class="gtext">it belongs on the bench.</span></h2>
+        <p>From a single worn barstool to a full built-in banquette or a set of boat cushions &mdash; Gemma re-covers, rebuilds and refreshes the pieces you&rsquo;re not ready to part with.</p>
+      </div>
+      <div class="svc-grid">
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a2 2 0 0 1 2-2 2 2 0 0 1 2 2v2h8v-2a2 2 0 0 1 2-2 2 2 0 0 1 2 2v5H4z"/><path d="M6 19v2M18 19v2"/><path d="M8 14v-3a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3"/></svg></div>
+          <h3>Sofas &amp; couches</h3>
+          <p>Full reupholstery and rebuilt cushions for sofas, sleeper sofas and sectionals &mdash; made new in fresh fabric with crisp attention to detail.</p>
+        </article>
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v5"/><path d="M6 10h12l-1 6H7z"/><path d="M8 16v4M16 16v4"/></svg></div>
+          <h3>Dining chairs &amp; barstools</h3>
+          <p>Sets recovered and done beautifully &mdash; from six matching barstools to well-loved dining chairs that come back looking amazing.</p>
+        </article>
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="3"/><path d="M7 7v10M17 7v10"/></svg></div>
+          <h3>Cushions &amp; banquettes</h3>
+          <p>Custom cushions built from scratch for built-in banquettes, breakfast nooks, benches and window seats &mdash; made to fit your space exactly.</p>
+        </article>
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17c3 1.5 5 1.5 8 0s5-1.5 8 0"/><path d="M4 14l1.5-6.5A2 2 0 0 1 7.4 6h9.2a2 2 0 0 1 1.9 1.5L20 14"/><path d="M12 6V3"/></svg></div>
+          <h3>Boat &amp; marine seating</h3>
+          <p>Boat cushions, helm and leaning-post seats, and covers rebuilt to handle the elements &mdash; including cushions recreated better than the originals after a storm.</p>
+        </article>
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3l7 7-9 9-7 1 1-7z"/><path d="M12 5l7 7"/></svg></div>
+          <h3>Repairs &amp; patching</h3>
+          <p>A small hole or worn spot doesn&rsquo;t mean the end of a favorite piece &mdash; careful repairs and patching keep your sectional or chair going for years.</p>
+        </article>
+        <article class="svc reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M8 3v18" opacity=".5"/></svg></div>
+          <h3>Fabric selection</h3>
+          <p>Honest guidance choosing the right fabric &mdash; a faithful match to something you love, a sturdier weave, or the perfect new look for the room.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="work" id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <p class="eyebrow">Our work</p>
+        <h2 id="work-h">Real pieces, <span class="gtext">recovered and rebuilt.</span></h2>
+        <p>A look at the furniture, cushions and marine seating Gemma's Creations re-covers and restores &mdash; every one finished in the fabric the customer chose.</p>
+      </div>
+      <div class="gal-grid">
+        <figure class="gal reveal"><img src="assets/g-barstools.jpg" loading="lazy" alt="Pair of curved-back barstools reupholstered in rich red velvet with wood frames"><figcaption>Red velvet barstools</figcaption></figure>
+        <figure class="gal reveal"><img src="assets/g-cushions.jpg" loading="lazy" alt="Two custom seat cushions freshly re-covered in oatmeal textured linen"><figcaption>Custom seat cushions</figcaption></figure>
+        <figure class="gal reveal"><img src="assets/g-marine.jpg" loading="lazy" alt="Set of grey and white diamond-stitched marine helm and boat seat cushions"><figcaption>Diamond-stitched boat seats</figcaption></figure>
+        <figure class="gal reveal"><img src="assets/g-boat.jpg" loading="lazy" alt="Tan diamond-stitched leaning-post boat seat mounted on a center-console boat"><figcaption>Marine leaning-post seat</figcaption></figure>
+        <figure class="gal reveal"><img src="assets/g-moto.jpg" loading="lazy" alt="Custom motorcycle seat re-covered in dark brown crocodile-embossed leather"><figcaption>Custom motorcycle seat</figcaption></figure>
+        <figure class="gal reveal"><img src="assets/g-canvas.jpg" loading="lazy" alt="Navy fitted canvas T-top and console cover fabricated for a center-console boat"><figcaption>Fitted marine canvas cover</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIVIDER PULL-QUOTE ============ -->
+  <section class="divider" aria-label="Customer quote">
+    <div class="bg" aria-hidden="true"><img loading="lazy" src="assets/hero.jpg" alt=""></div>
+    <div class="wrap reveal">
+      <svg class="star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg>
+      <blockquote>&ldquo;The new cushions are honestly <b>even better than our original ones.</b>&rdquo;</blockquote>
+      <span class="who">Anthony C. &middot; Google review</span>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="reviews" id="reviews" aria-labelledby="rev-h">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <p class="eyebrow">What customers say</p>
+        <h2 id="rev-h">5.0 stars, and the reviews <span class="gtext">explain why.</span></h2>
+      </div>
+      <div class="rev-grid">
+        <article class="rev reveal">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg>
+          </div>
+          <p>&ldquo;Gemma has reupholstered six of our barstools. She does an excellent job, and very reasonably priced. I highly recommend her.&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">K</span><span><b>Kirsten T.</b><span>Google review</span></span></div>
+        </article>
+        <article class="rev reveal">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg>
+          </div>
+          <p>&ldquo;Gemma did an exceptional job re-upholstering our sleeper sofa &amp; occasional chair. After seeing the wallpaper in the piano room, she found THE perfect sofa fabric. She went out of her way to facilitate pickup &amp; delivery for us. I can&rsquo;t say enough about her &amp; her finished work!&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">D</span><span><b>Deborah B.</b><span>Google review</span></span></div>
+        </article>
+        <article class="rev reveal">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg>
+          </div>
+          <p>&ldquo;Gemma recovered my dining room chairs and they look amazing! I would highly recommend her for any upholstery or sewing needs. Great communication and turnaround time as well.&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">S</span><span><b>Sara O.</b><span>Google review</span></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CRAFT STRIP ============ -->
+  <section class="heritage" aria-labelledby="her-h">
+    <div class="wrap">
+      <div class="cred reveal">
+        <img src="assets/craft.jpg" alt="Industrial upholstery sewing machine stitching a white diamond-quilted panel in the workshop">
+        <div>
+          <p class="eyebrow" style="justify-content:flex-start">Made by hand in St. Pete</p>
+          <h3 id="her-h">A woman-owned shop where <span>every piece is made by hand.</span></h3>
+          <p>Gemma's Creations is a custom upholstery shop in St. Petersburg, and Gemma handles every piece herself &mdash; from choosing the fabric with you to the final stitch on an industrial machine. Customers describe a hands-on approach where you&rsquo;re involved in every step of the process.</p>
+          <p>Bring in a well-loved couch, a set of barstools, dining chairs, a built-in banquette or a boat that needs new cushions &mdash; and get it all back beautiful, in the fabric you chose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISIT / INFO ============ -->
+  <section class="visit alt" id="visit" aria-labelledby="visit-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Get started</p>
+        <h2 id="visit-h">Call, or send a photo of your piece and <span class="gtext">get a quote.</span></h2>
+      </div>
+      <div class="info-grid">
+        <div class="info reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Serving</h3>
+          <p>St. Petersburg &amp; Seminole, FL<br>&amp; the wider Tampa Bay area<br><a href="https://www.google.com/maps/search/?api=1&query=Gemma%27s+Creations+upholstery+St+Petersburg+FL" target="_blank" rel="noopener">Find us on Google</a></p>
+        </div>
+        <div class="info reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 15l2 2 4-4"/></svg></div>
+          <h3>By appointment</h3>
+          <p>Every project starts with a quick chat.<br>Call or text to schedule a time &mdash; and pickup &amp; delivery can be arranged.</p>
+        </div>
+        <div class="info reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <h3>Call or text</h3>
+          <p><a href="tel:+17272541813">(727) 254-1813</a><br>Text a photo of your piece for the fastest quote.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="cta-band" aria-labelledby="cta-h">
+    <div class="bg" aria-hidden="true"><img loading="lazy" src="assets/banquette.jpg" alt=""></div>
+    <div class="wrap reveal">
+      <h2 id="cta-h">Ready to <em>bring it back to life?</em></h2>
+      <p>A well-loved couch, a set of barstools, dining chairs, a built-in banquette or boat cushions that need a fresh start &mdash; call or text Gemma's Creations and get an honest quote today.</p>
+      <div class="btns">
+        <a class="btn btn-rs" href="tel:+17272541813">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (727) 254-1813
+        </a>
+        <a class="btn btn-ghost" href="sms:+17272541813">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          Text a photo of your piece
+        </a>
+      </div>
+      <p class="fine">Custom upholstery &amp; reupholstery &middot; Woman-owned &middot; St. Petersburg, FL &amp; the wider Tampa Bay area</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4H5z"/><path d="M5 15v3M19 15v3"/><path d="M7 9V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><path d="M9 9h6"/></svg>
+          </span>
+          <span class="bt">
+            <b>Gemma's Creations</b>
+            <span class="tag">Custom Upholstery &middot; St. Petersburg</span>
+          </span>
+        </div>
+        <p class="desc">Woman-owned custom upholstery in St. Petersburg, FL &mdash; sofas, dining chairs, barstools, banquettes, cushions and boat seating, re-covered in the fabric you love.</p>
+        <div class="foot-contact">
+          <a class="btn btn-rs" href="tel:+17272541813">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call us
+          </a>
+          <a class="btn btn-ghost" href="sms:+17272541813">Text us</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#reupholstery">Furniture reupholstery</a></li>
+          <li><a href="#services">Sofas &amp; chairs</a></li>
+          <li><a href="#services">Barstools &amp; banquettes</a></li>
+          <li><a href="#services">Cushions &amp; boat seating</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+17272541813"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(727) 254-1813</a></li>
+          <li><a href="sms:+17272541813"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>Text us a photo</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Gemma%27s+Creations+upholstery+St+Petersburg+FL" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>St. Petersburg, FL</a></li>
+          <li><a href="#visit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>By appointment</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="yr">2026</span> Gemma's Creations. All rights reserved.</span>
+      <span>Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a></span>
+    </div>
+    <p class="foot-note">Reviews shown are real Google reviews from Gemma's Creations customers. Rating and review count reflect the shop's Google Business Profile. Photographs are the shop's own work. Turnaround times vary by piece and fabric availability.</p>
+  </div>
+</footer>
+
+<script>
+  document.documentElement.classList.add('js');
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  (function(){
+    var header = document.querySelector('header.site');
+    function onScroll(){ if(header) header.classList.toggle('is-scrolled', window.scrollY > 8); }
+    onScroll();
+    window.addEventListener('scroll', onScroll, {passive:true});
+  })();
+  (function(){
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var els = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+    if(reduce || !('IntersectionObserver' in window)){ els.forEach(function(el){ el.classList.add('is-visible'); }); return; }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+    }, {rootMargin:'0px 0px 12% 0px', threshold:0});
+    els.forEach(function(el){ io.observe(el); });
+    var sweepTimer = null;
+    var sweep = function(){
+      sweepTimer = null; var vh = window.innerHeight;
+      els = els.filter(function(el){
+        if(el.classList.contains('is-visible')) return false;
+        if(el.getBoundingClientRect().top < vh){ el.classList.add('is-visible'); io.unobserve(el); return false; }
+        return true;
+      });
+    };
+    window.addEventListener('scroll', function(){ if(!sweepTimer) sweepTimer = setTimeout(sweep, 90); }, {passive:true});
+  })();
+</script>
+</body>
+</html>
